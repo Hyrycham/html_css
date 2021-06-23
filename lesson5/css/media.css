@@ -1,0 +1,145 @@
+@media screen and (max-width:576px) {
+
+    .first-screen_right,
+    .header_button {
+        display: none;
+
+    }
+
+    .wrapper {
+        max-width: 510px;
+    }
+
+    .header_nav {
+        position: fixed;
+        background-color: #3298F2;
+        left: -100%;
+        flex-direction: column;
+        width: 100%;
+        top: 93px;
+        height: 93vh;
+        transition: left 1000ms;
+        padding: 100px;
+        row-gap: 25px;
+    }
+
+    .active .header_nav {
+        left: 0;
+    }
+
+    .header_nav a {
+        font-weight: 700;
+        color: white;
+    }
+
+    .header_logo img {
+        width: 200px;
+    }
+
+    .header_grid {
+        height: 93px;
+
+    }
+
+    .btn_mob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 60px;
+        top: 10px;
+        right: 15px;
+        height: 60px;
+    }
+
+    .btn_mob span {
+        width: 80%;
+        height: 7px;
+        background-color: #3298F2;
+        border-radius: 5px;
+        position: relative;
+        transition: background-color 300ms 100ms;
+
+    }
+
+    .btn_mob span::before,
+    .btn_mob span::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #3298F2;
+        border-radius: 5px;
+    }
+
+    .btn_mob span::before {
+        top: -15px;
+    }
+
+    .btn_mob span::after {
+        bottom: -15px;
+    }
+
+    .btn_mob span::before {
+        transition-property: top, transform;
+    }
+
+    .btn_mob span::after {
+        transition-property: bottom, transform;
+    }
+
+    .btn_mob span::before,
+    .btn_mob span::after {
+        transition-duration: 300ms, 300ms;
+        transition-delay: 300ms, 0ms;
+    }
+
+    .active .btn_mob span::before {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    .active .btn_mob span::after {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+
+    .active .btn_mob span::before,
+    .active .btn_mob span::after {
+        transition-duration: 300ms, 300ms;
+        transition-delay: 0ms, 300ms;
+    }
+
+    .active .btn_mob span {
+        background-color: transparent;
+    }
+
+    /* =========== */
+    .first-screen_left_button {
+                background-color: yellow;
+            }
+
+    .active .first-screen {
+        display: none;
+    }
+
+   
+    .video_gray {
+        background-color: rgb(194, 187, 187);
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+.play_small {
+    background-color: orangered;
+}
+.first-screen_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}

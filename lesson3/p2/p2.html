@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .top_box {
+            width: 1000px;
+            height: 400px;
+        }
+
+        .nav {
+            background: cornflowerblue;
+            height: 50px;
+            width: 1000px;
+            display: flex;
+            position: fixed;
+            z-index: 2;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            background: black;
+            margin-left: 100px;
+            width: 100px;
+            height: 30px;
+            box-sizing: border-box;
+        }
+
+        .menu a {
+            text-decoration: none;
+        }
+
+        .menu {
+            margin-right: 100px;
+            width: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .top_header {
+            height: 250px;
+            margin-top: 50px;
+            background: black;
+            color: darkmagenta;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .main_box {
+            background: dodgerblue;
+            width: 1000px;
+        }
+
+        .square_box {
+            background: darkmagenta;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin: 15px;
+        }
+
+        .rectangle {
+            height: 150px;
+            width: 330px;
+        }
+
+        .rectangle_small {
+            height: 150px;
+            width: 200px;
+        }
+
+        .lage {
+            height: 200px;
+            width: 200px;
+        }
+
+        .small {
+            height: 150px;
+            width: 150px;
+        }
+
+        .cirkle_box {
+            border-radius: 50%;
+        }
+
+        .super_small {
+            height: 30px;
+            width: 30px;
+        }
+
+        .box_display {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box1 {
+            position: relative;
+            top: -115px;
+        }
+
+        .box2 {
+            padding: 50px 95px 0px 95px;
+            margin-bottom: 50px;
+        }
+
+        .box3 {
+            margin-bottom: 60px;
+        }
+
+        .box4 {
+            margin-bottom: 50px;
+        }
+
+        .box5 {
+            margin-bottom: 60px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            width: min-content;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        .text5 {
+            text-align: justify;
+            width: 470px;
+            margin: 15px;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 150px;
+            margin-top: 50px;
+            background: black;
+            color: darkmagenta;
+            align-items: center;
+        }
+
+        .footermenu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .footermenu a {
+            margin-left: 20px;
+        }
+
+        .footerbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="top_box">
+            <div class="nav">
+                <div class="logo"> </div>
+                <div class=" menu">
+                    <a href="">Q</a>
+                    <a href="">=</a>
+                    <a href="">=</a>
+                </div>
+            </div>
+            <div class="top_header">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum recusandae ipsa eum tempora error
+                    incidunt
+                    ratione quas obcaecati beatae iure suscipit non, fuga numquam nemo cum architecto in? Ex, sequi.</p>
+                <a href=""> download</a>
+            </div>
+        </div>
+
+        <div class="main_box">
+
+            <div class="box1  box_display">
+                <div class="square_box lage"></div>
+                <div class="square_box lage"></div>
+                <div class="square_box lage"></div>
+            </div>
+
+            <h3>dfdsf sdsddvsd sdsdvvsd</h3>
+            <div class="box2 box_display">
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, ipsum as.</p>
+                </div>
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, ipsum aascs</p>
+                </div>
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, ipsum. wdq</p>
+                </div>
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, ipsum. as</p>
+                </div>
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, ipsu sdcl</p>
+                </div>
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, ipsum.ascasc</p>
+                </div>
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, ascas ipsum.</p>
+                </div>
+
+                <div class="card">
+                    <div class="square_box small"></div>
+                    <p>Lorem, asc ipsum.</p>
+                </div>
+
+            </div>
+
+            <h3> dvsdvsvko ksdvsv 33sd 3</h3>
+            <div class="box3 box_display">
+
+                <div class="card">
+                    <div class="square_box rectangle "></div>
+                    <h3>vvffvd fdvfv</h3>
+                    <p>Lorem, ipsum as. Lorem ipsum dolor sit amet consectvfvvd dfvv sdvsvvsvsetur adipisicing elit.
+                        Cumque,
+                        ea.</p>
+                </div>
+                <div class="card">
+                    <div class="square_box rectangle "></div>
+                    <h3>vvffvd fdvfv</h3>
+                    <p>Lorem, ipsum Lorem ipsum dolor sit dfvew wef we evscdv amet consectetur, adipisicing elit. Iusto,
+                        dolores dficiis! as.</p>
+                </div>
+                <div class="card">
+                    <div class="square_box rectangle "></div>
+                    <h3>vvffvd fdvfv</h3>
+                    <p>Lorem, Lorem ipsum dolor sit amet consect sdv sd sdetur, adip dicta. Sequi itaque
+                        consecteturipsum
+                        as.</p>
+                </div>
+                <div class="card">
+                    <div class="square_box rectangle "></div>
+                    <h3>vvffvd fdvfv</h3>
+                    <p>Lor Lorem ipsum dolor sit amet consectetur, adip sd sdisicing elit. Ius. Sequi itaque
+                        consecteturem,
+                        ipsum as.</p>
+                </div>
+
+            </div>
+
+            <h3>слайдер</h3>
+            <div class="box4 box_display">
+                <div class="square_box rectangle_small "></div>
+                <div class="square_box rectangle_small "></div>
+                <div class="square_box rectangle_small "></div>
+            </div>
+
+            <div class="box5 box_display">
+                <div class="square_box cirkle_box small "></div>
+                <div class="text5">
+                    <h3> cirkle dsdv sddvvdfd dfvv;d sdv</h3>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni neque consectetur pariatur illo
+                        quasi amet nostrum sed modi ipsum est molestiae maiores reiciendis culpa, qui laboriosam.
+                        Laboriosam
+                        quaerat veniam nihil.</p>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="footerbox">
+                    <div class=" square_box super_small"></div>
+                    <div class=" square_box super_small"></div>
+                    <div class=" square_box super_small"></div>
+                </div>
+                <div class="footermenu">
+                    <a href="">start</a>
+                    <a href="">next</a>
+                    <a href="">home</a>
+                    <a href=""> about</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

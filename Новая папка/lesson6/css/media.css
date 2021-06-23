@@ -1,0 +1,216 @@
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+
+    .header_top__logo img {
+        width: 174px;
+    }
+
+    .header_top__grid {
+        height: 65px;
+    }
+
+    .nav_menu,
+    .header_top__button,
+    .arr_left,
+    .arr_right {
+        display: none;
+    }
+
+    .header_top__button__call {
+        width: 40px;
+        height: 40px;
+    }
+
+    .button_mobile {
+        display: flex;
+    }
+
+    .header_top__buttons {
+        column-gap: 23px;
+    }
+
+    .news_slider__item {
+        width: 83px;
+    }
+
+    .news {
+        padding: 10px;
+    }
+
+    .news_grid h2 {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    .bar_card_nav {
+        display: none;
+    }
+
+    .list_menu_items {
+        height: 19px;
+    }
+
+    .list_menu_items a {
+        font-size: 16px;
+    }
+
+    .list_menu {
+        margin-bottom: 5px;
+        padding-top: 20px;
+    }
+
+    .shot_box {
+        display: none;
+    }
+
+    .find_button_glass_red,
+    .find_button_glass {
+        width: 29px;
+        height: 29px;
+    }
+
+    /* .find_button img {
+        width: 29px;
+        height: 29px;
+    } */
+
+    .find_button {
+        max-width: 195px;
+        width: 100%;
+        font-size: 10px;
+        padding-left: 8px;
+        border-radius: 3px 0px 0px 3px;
+    }
+
+    .bar_card_nav_buttons {
+        display: flex;
+        border: 1px solid #B7B7B7;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: 225px;
+        max-height: 31px;
+    }
+
+    .filter_button {
+        width: 55px;
+        height: 31px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .filter_icons,
+    .filter_icons_red {
+        height: 31px;
+        width: 31px;
+        column-gap: 2px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .filter_button span {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .filter_buttons,
+    .wrapper_bar_card_nav {
+        margin-bottom: 17px;
+        margin-top: 10px;
+    }
+
+    .nav_and_filter {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 25px;
+    }
+
+    .wrap_drink_small_and_big {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .pricelist_drink_items {
+        padding: 10px 10px 16px 10px;
+        width: 145px;
+        height: 140px;
+         border-radius: 10px;
+            }
+
+    .drink_name {
+        font-size: 11px;
+    }
+
+    .drink_components p {
+        font-weight: 500;
+        font-size: 8px;
+        color: #CB3B48;
+    }
+
+    .drink_components {
+        width: 120px;
+    }
+
+    .drink_price_size {
+        width: 78px;
+        height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .drink_price_size h3 {
+        font-weight: bold;
+        font-size: 21px;
+            }
+
+    .drink_price_size p {
+            font-size: 10px;
+    }
+
+    .drink_button {
+        width: 125px;
+        height: 23px;
+        border: 0.5px solid #CB3B48;
+        box-sizing: border-box;
+        border-radius: 3px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .card_button_wrap {
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+    }
+    .wrap_pricelist_drink {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 15px;
+        margin-bottom: 0px;
+    }
+.image_drink img{
+    width: 145px;
+height: 180px;
+}
+
+.image_drink{
+    width: 145px;
+height: 180px;
+}
+
+.wrap_pricelist_drink .pricelist_drink_items:nth-child(n+3){
+    display: none;
+}
+
+
+}

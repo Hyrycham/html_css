@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            align-items: center;
+        }
+
+        .top_box {
+            height: 510px;
+        }
+
+        .column_box {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .main_box {
+            background: yellow;
+        }
+
+        .l_n {
+            position: fixed;
+            border-bottom: solid 5px silver;
+            box-sizing: border-box;
+        }
+
+        .row_box {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .logo {
+            background: blueviolet;
+            height: 50px;
+            width: 100px;
+        }
+
+        .nav {
+            background: deeppink;
+            height: 50px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .summary {
+            background: crimson;
+            margin-top: 50px;
+            height: min-content;
+            width: 600px;
+            text-align: justify;
+            padding: 10px;
+        }
+
+        .alert {
+            height: 400px;
+            width: 600px;
+        }
+
+        .lefr_right_box {
+            flex-wrap: wrap;
+            width: 300px;
+            height: 450px;
+        }
+
+        .large_f {
+            background: silver;
+            height: 300px;
+            width: 300px;
+        }
+
+        .large_f :hover {
+            background: silver;
+            height: 350px;
+            width: 350px;
+            position: relative;
+            transition: 0.5s;
+            border-radius: 20%;
+        }
+
+        .small_f {
+            background: silver;
+            height: 150px;
+            width: 150px;
+        }
+
+        .small_f :hover {
+            background: silver;
+            height: 120px;
+            width: 120px;
+            transition: 0.5s;
+            border-radius: 10%;
+        }
+
+        .border_silver {
+            box-sizing: border-box;
+            border-left: solid 5px silver;
+            border-top: solid 5px silver;
+        }
+
+        .alert img {
+            height: 395px;
+            width: 595px;
+        }
+
+        .small_f img {
+            height: 145px;
+            width: 145px;
+        }
+
+        .large_f img {
+            height: 295px;
+            width: 295px;
+        }
+
+        a {
+            text-transform: capitalize;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box column_box">
+        <div class="top_box column_box">
+            <div class="l_n row_box">
+                <div class="logo border_silver"> </div>
+                <div class="nav border_silver">
+                    <a href="">main</a>
+                    <a href="">home</a>
+                    <a href="">next</a>
+                    <a href="">end</a>
+                </div>
+            </div>
+            <div class="summary border_silver">
+                <p> <b>«Опера́ция „Ы“ и други́е приключе́ния Шу́рика» </b>— советский комедийный художественный фильм,
+                    снятый в 1965 году режиссёром Леонидом Гайдаем. Фильм был лидером кинопроката в СССР в 1965 году и
+                    имел большой успех: его посмотрели 69,6 миллиона зрителей. В этом же году на фестивале
+                    короткометражных фильмов в Кракове новелле «Наваждение» был присуждён главный приз — «Серебряный
+                    дракон Вавеля».</p>
+
+            </div>
+            <div class="alert border_silver">
+                <img src="oper.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="main_box row_box">
+            <div class="lefr_right_box column_box">
+                <div class="small_f border_silver"> <img src="1.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="2.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="3.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="4.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="5.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="6.jpg" alt=""></div>
+            </div>
+            <div class="lefr_right_box row_box">
+                <div class="large_f border_silver"> <img src="0.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="7.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="8.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="main_box row_box">
+            <div class="lefr_right_box column_box">
+                <div class="small_f border_silver"> <img src="1.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="2.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="3.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="4.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="5.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="6.jpg" alt=""></div>
+            </div>
+            <div class="lefr_right_box row_box">
+                <div class="large_f border_silver"> <img src="0.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="7.jpg" alt=""></div>
+                <div class="small_f border_silver"> <img src="8.jpg" alt=""></div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
